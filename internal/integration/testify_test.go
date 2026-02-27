@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/logicalley/go-mockgen/v2/internal/integration/testdata"
-	"github.com/logicalley/go-mockgen/v2/internal/integration/testdata/mocks"
-	mockassert "github.com/logicalley/go-mockgen/v2/testutil/assert"
+	"github.com/logicalley/go-mockgen/internal/integration/testdata"
+	"github.com/logicalley/go-mockgen/internal/integration/testdata/mocks"
+	mockassert "github.com/logicalley/go-mockgen/testutil/assert"
 	"github.com/stretchr/testify/assert"
 )
 

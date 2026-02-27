@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/logicalley/go-mockgen/v2/internal/integration/testdata/mocks"
+	"github.com/logicalley/go-mockgen/internal/integration/testdata/mocks"
 	"github.com/stretchr/testify/assert"
 )
 

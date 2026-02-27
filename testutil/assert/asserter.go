@@ -3,7 +3,7 @@ package mockassert
 import (
 	"reflect"
 
-	"github.com/logicalley/go-mockgen/v2/internal/testutil"
+	"github.com/logicalley/go-mockgen/internal/testutil"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -4,14 +4,14 @@ import (
 	gotypes "go/types"
 	"strings"
 
-	"github.com/logicalley/go-mockgen/v2/internal/mockgen/types"
+	"github.com/logicalley/go-mockgen/internal/mockgen/types"
 )
 
 const (
 	TestPrefix         = "Test"
 	TestTitleName      = "Client"
 	TestMockStructName = "MockTestClient"
-	TestImportPath     = "github.com/logicalley/go-mockgen/v2/test"
+	TestImportPath     = "github.com/logicalley/go-mockgen/test"
 )
 
 var (

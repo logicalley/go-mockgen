@@ -173,8 +173,8 @@ To use the assertions, import the assert and require packages by name.
 
 ```go
 import (
-    mockassert "github.com/logicalley/go-mockgen/v2/testutil/assert"
-    mockrequire "github.com/logicalley/go-mockgen/v2/testutil/require"
+    mockassert "github.com/logicalley/go-mockgen/testutil/assert"
+    mockrequire "github.com/logicalley/go-mockgen/testutil/require"
 )
 ```
 
@@ -210,7 +210,7 @@ This library also contains a set of [Gomega](https://onsi.github.io/gomega/) mat
 To use the matchers, import the matchers package anonymously.
 
 ```go
-import . "github.com/logicalley/go-mockgen/v2/testutil/gomega"
+import . "github.com/logicalley/go-mockgen/testutil/gomega"
 ```
 
 The following matchers are defined.

@@ -1,7 +1,7 @@
 package mockrequire
 
 import (
-	mockassert "github.com/logicalley/go-mockgen/v2/testutil/assert"
+	mockassert "github.com/logicalley/go-mockgen/testutil/assert"
 	"github.com/stretchr/testify/require"
 )
 

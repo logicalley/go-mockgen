@@ -1,4 +1,4 @@
-module github.com/logicalley/go-mockgen/v2
+module github.com/logicalley/go-mockgen
 
 go 1.25
 
