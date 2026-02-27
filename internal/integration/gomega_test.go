@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/derision-test/go-mockgen/v2/internal/integration/testdata"
-	"github.com/derision-test/go-mockgen/v2/internal/integration/testdata/mocks"
-	. "github.com/derision-test/go-mockgen/v2/testutil/gomega"
+	"github.com/logicalley/go-mockgen/v2/internal/integration/testdata"
+	"github.com/logicalley/go-mockgen/v2/internal/integration/testdata/mocks"
+	. "github.com/logicalley/go-mockgen/v2/testutil/gomega"
 	. "github.com/onsi/gomega"
 )
 

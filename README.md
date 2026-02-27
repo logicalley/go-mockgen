@@ -1,14 +1,14 @@
 # go-mockgen
 
-[![PkgGoDev](https://pkg.go.dev/badge/badge/github.com/derision-test/go-mockgen.svg)](https://pkg.go.dev/github.com/derision-test/go-mockgen)
-[![Build status](https://github.com/derision-test/go-mockgen/actions/workflows/test.yml/badge.svg)](https://github.com/derision-test/go-mockgen/actions/workflows/test.yml)
-[![Latest release](https://img.shields.io/github/release/derision-test/go-mockgen.svg)](https://github.com/derision-test/go-mockgen/releases/)
+[![PkgGoDev](https://pkg.go.dev/badge/badge/github.com/logicalley/go-mockgen.svg)](https://pkg.go.dev/github.com/logicalley/go-mockgen)
+[![Build status](https://github.com/logicalley/go-mockgen/actions/workflows/test.yml/badge.svg)](https://github.com/logicalley/go-mockgen/actions/workflows/test.yml)
+[![Latest release](https://img.shields.io/github/release/derision-test/go-mockgen.svg)](https://github.com/logicalley/go-mockgen/releases/)
 
-A mock interface code generator (supports generics as of [v1.2.0](https://github.com/derision-test/go-mockgen/releases/tag/v1.2.0) 🎉).
+A mock interface code generator (supports generics as of [v1.2.0](https://github.com/logicalley/go-mockgen/releases/tag/v1.2.0) 🎉).
 
 ## Generating Mocks
 
-Install with `go get -u github.com/derision-test/go-mockgen/...`.
+Install with `go get -u github.com/logicalley/go-mockgen/...`.
 
 Mocks should be generated via `go generate` and should be regenerated on each update to the target interface. For example, in `gen.go`:
 
@@ -173,8 +173,8 @@ To use the assertions, import the assert and require packages by name.
 
 ```go
 import (
-    mockassert "github.com/derision-test/go-mockgen/v2/testutil/assert"
-    mockrequire "github.com/derision-test/go-mockgen/v2/testutil/require"
+    mockassert "github.com/logicalley/go-mockgen/v2/testutil/assert"
+    mockrequire "github.com/logicalley/go-mockgen/v2/testutil/require"
 )
 ```
 
@@ -210,7 +210,7 @@ This library also contains a set of [Gomega](https://onsi.github.io/gomega/) mat
 To use the matchers, import the matchers package anonymously.
 
 ```go
-import . "github.com/derision-test/go-mockgen/v2/testutil/gomega"
+import . "github.com/logicalley/go-mockgen/v2/testutil/gomega"
 ```
 
 The following matchers are defined.

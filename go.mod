@@ -5,7 +5,7 @@ go 1.25
 require (
 	github.com/alecthomas/kingpin v2.2.6+incompatible
 	github.com/dave/jennifer v1.5.0
-	github.com/derision-test/go-mockgen/v2 v2.1.1
+	github.com/logicalley/go-mockgen/v2 v2.1.1
 	github.com/dustin/go-humanize v1.0.0
 	github.com/mitchellh/go-wordwrap v1.0.1
 	github.com/onsi/gomega v1.19.0
